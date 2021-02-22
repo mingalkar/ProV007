@@ -20,5 +20,7 @@ public class Constants {
 	public static Properties prop = null;
 	public static AShot shot = null;
 	public static Actions actions = null;
-
+  
 }
+
+

@@ -4,6 +4,7 @@ import org.apache.log4j.Logger;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+
 import com.bhiman.main.UIKeywords;
 
 /**
@@ -15,7 +16,6 @@ import com.bhiman.main.UIKeywords;
 public class BaseTest extends UIKeywords {
 	
 	private static final Logger LOG = Logger.getLogger(BaseTest.class);
-	
 	@BeforeMethod
 	public void setUp() {
 		UIKeywords.opnBrowser("Chrome");
