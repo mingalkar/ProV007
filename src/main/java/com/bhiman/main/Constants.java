@@ -1,5 +1,7 @@
 package com.bhiman.main;
 
-public class Constants {
+import org.openqa.selenium.WebDriver;
 
+public class Constants {
+	public static WebDriver driver;
 }
